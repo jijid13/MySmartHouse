@@ -13,8 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHServiceSonyBravia", "MSH
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHServiceFreeBox", "MSHServiceFreeBox\MSHServiceFreeBox.csproj", "{620BC691-5402-44B1-9AFA-693FF5CED813}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHServiceTraffic", "MSHServiceTraffic\MSHServiceTraffic.csproj", "{34C749A4-434D-4257-B16C-51A430AAF8B1}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		ComputerTestKinect|Any CPU = ComputerTestKinect|Any CPU
@@ -63,14 +61,6 @@ Global
 		{620BC691-5402-44B1-9AFA-693FF5CED813}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{620BC691-5402-44B1-9AFA-693FF5CED813}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{620BC691-5402-44B1-9AFA-693FF5CED813}.Release|Any CPU.Build.0 = Release|Any CPU
-		{34C749A4-434D-4257-B16C-51A430AAF8B1}.ComputerTestKinect|Any CPU.ActiveCfg = ComputerTestKinect|Any CPU
-		{34C749A4-434D-4257-B16C-51A430AAF8B1}.ComputerTestKinect|Any CPU.Build.0 = ComputerTestKinect|Any CPU
-		{34C749A4-434D-4257-B16C-51A430AAF8B1}.ComputerTestMicro|Any CPU.ActiveCfg = ComputerTest|Any CPU
-		{34C749A4-434D-4257-B16C-51A430AAF8B1}.ComputerTestMicro|Any CPU.Build.0 = ComputerTest|Any CPU
-		{34C749A4-434D-4257-B16C-51A430AAF8B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{34C749A4-434D-4257-B16C-51A430AAF8B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{34C749A4-434D-4257-B16C-51A430AAF8B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{34C749A4-434D-4257-B16C-51A430AAF8B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
