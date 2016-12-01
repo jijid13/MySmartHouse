@@ -1,0 +1,74 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root= "MSHServiceSonyBravia" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="MSHServiceSonyBravia" scope="public">
+    <example>affiche le pc</example>
+    <example>affiche la fribox</example>
+    <example>affiche la xbox</example>
+    <example>bonne nuit</example>
+
+    <tag>out.hdmi=""; out.sleep=""; out.sound=""; out.channel="";</tag>
+    <one-of>
+      <item>
+        <ruleref uri ="#HDMI" type="application/srgs+xml"/>
+        <tag>out.hdmi=rules.latest();</tag>
+        <ruleref uri ="#Sound" type="application/srgs+xml"/>
+        <tag>out.sound=rules.latest();</tag>
+        <ruleref uri ="#Channel" type="application/srgs+xml"/>
+        <tag>out.channel=rules.latest();</tag>
+      </item>
+    </one-of>
+  </rule>
+  
+  <rule id="Sound">
+    <item repeat="0-1">
+      <one-of>
+        <item>
+          diminu le son de la télé <tag>out = "AAAAAQAAAAEAAAATAw|AAAAAQAAAAEAAAATAw|AAAAAQAAAAEAAAATAw|AAAAAQAAAAEAAAATAw"; </tag>
+        </item>
+        <item>
+          augmente le son de la télé <tag>out = "AAAAAQAAAAEAAAASAw|AAAAAQAAAAEAAAASAw|AAAAAQAAAAEAAAASAw|AAAAAQAAAAEAAAASAw"; </tag>
+        </item>
+        <item>
+          mute <tag>out = "AAAAAQAAAAEAAAAUAw"; </tag>
+        </item>
+      </one-of>
+    </item>
+  </rule>
+
+  <rule id="Channel">
+    <item repeat="0-1">
+      <one-of>
+        <item>
+          chaine suivante <tag>out = "AAAAAQAAAAEAAAAQAw"; </tag>
+        </item>
+        <item>
+          chaine précédente <tag>out = "AAAAAQAAAAEAAAARAw"; </tag>
+        </item>
+      </one-of>
+    </item>
+  </rule>
+  
+  <rule id="HDMI">
+    <item repeat="0-1">
+      <one-of>
+        <item>
+          affiche <tag>out = ""; </tag>
+        </item>
+      </one-of>
+      
+      <one-of>
+        <item>
+          la fribox <tag>out = "AAAAAgAAABoAAABaAw"; </tag><!-- HDMI1 -->
+        </item>
+        <item>
+          hdmi2 <tag>out = "AAAAAgAAABoAAABbAw"; </tag><!-- HDMI2 -->
+        </item>
+        <item>
+          la xbox <tag>out = "AAAAAgAAABoAAABcAw"; </tag><!-- HDMI3 -->
+        </item>
+        <item>
+          le pc <tag>out = "AAAAAgAAABoAAABdAw"; </tag><!-- HDMI4 -->
+        </item>
+      </one-of>
+    </item>
+  </rule>
+</grammar>

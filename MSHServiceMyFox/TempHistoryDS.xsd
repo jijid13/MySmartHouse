@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TempHistoryDS" targetNamespace="http://tempuri.org/TempHistoryDS.xsd" xmlns:mstns="http://tempuri.org/TempHistoryDS.xsd" xmlns="http://tempuri.org/TempHistoryDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TempHistoryDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="TempHistoryDS" msprop:Generator_UserDSName="TempHistoryDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="temperatureHistory" msprop:Generator_TableClassName="temperatureHistoryDataTable" msprop:Generator_TableVarName="tabletemperatureHistory" msprop:Generator_TablePropName="temperatureHistory" msprop:Generator_RowDeletingName="temperatureHistoryRowDeleting" msprop:Generator_RowChangingName="temperatureHistoryRowChanging" msprop:Generator_RowEvHandlerName="temperatureHistoryRowChangeEventHandler" msprop:Generator_RowDeletedName="temperatureHistoryRowDeleted" msprop:Generator_UserTableName="temperatureHistory" msprop:Generator_RowChangedName="temperatureHistoryRowChanged" msprop:Generator_RowEvArgName="temperatureHistoryRowChangeEvent" msprop:Generator_RowClassName="temperatureHistoryRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="date" msprop:Generator_ColumnVarNameInTable="columndate" msprop:Generator_ColumnPropNameInRow="date" msprop:Generator_ColumnPropNameInTable="dateColumn" msprop:Generator_UserColumnName="date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="temperature" msprop:Generator_ColumnVarNameInTable="columntemperature" msprop:Generator_ColumnPropNameInRow="temperature" msprop:Generator_ColumnPropNameInTable="temperatureColumn" msprop:Generator_UserColumnName="temperature" type="xs:double" minOccurs="0" />
+              <xs:element name="piece" msprop:Generator_ColumnVarNameInTable="columnpiece" msprop:Generator_ColumnPropNameInRow="piece" msprop:Generator_ColumnPropNameInTable="pieceColumn" msprop:Generator_UserColumnName="piece" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

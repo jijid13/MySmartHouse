@@ -1,0 +1,137 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root= "MSHServiceFreeBox" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="MSHServiceFreeBox" scope="public">
+    <example>affiche le pc</example>
+    <example>affiche la fribox</example>
+    <example>affiche la xbox</example>
+    <example>bonne nuit</example>
+
+    <tag>out.functionality=""; out.sleep=""; out.sound=""; out.program=""; out.explore="";</tag>
+    <one-of>
+      <item>
+        <ruleref uri ="#Functionality" type="application/srgs+xml"/>
+        <tag>out.functionality=rules.latest();</tag>
+        <ruleref uri ="#Sleep" type="application/srgs+xml"/>
+        <tag>out.sleep=rules.latest();</tag>
+        <ruleref uri ="#Sound" type="application/srgs+xml"/>
+        <tag>out.sound=rules.latest();</tag>
+        <ruleref uri ="#Program" type="application/srgs+xml"/>
+        <tag>out.program=rules.latest();</tag>
+        <ruleref uri ="#Explore" type="application/srgs+xml"/>
+        <tag>out.explore=rules.latest();</tag>
+      </item>
+    </one-of>
+  </rule>
+
+  <rule id="Sleep">
+    <item repeat="0-1">
+      <one-of>
+        <item>
+          allume la fribox <tag>out = "power|sleep(4000)|ok"; </tag>
+        </item>
+        <item>
+          éteind la fribox <tag>out = "power"; </tag>
+        </item>
+      </one-of>
+    </item>
+  </rule>
+
+  <rule id="Sound">
+    <item repeat="0-1">
+      <one-of>
+        <item>
+          baisser le son <tag>out = "vol_dec|sleep(500)|vol_dec|sleep(500)|vol_dec|sleep(500)|vol_dec|sleep(500)|vol_dec|sleep(500)|vol_dec"; </tag>
+        </item>
+        <item>
+          augmente le son <tag>out = "vol_inc|sleep(500)|vol_inc|sleep(500)|vol_inc|sleep(500)|vol_inc|sleep(500)|vol_inc|sleep(500)|vol_inc"; </tag>
+        </item>
+        <item>
+          couper le son <tag>out = "mute"; </tag>
+        </item>
+        <item>
+          remet le son <tag>out = "mute"; </tag>
+        </item>
+      </one-of>
+    </item>
+  </rule>
+
+  <rule id="Program">
+    <item repeat="0-1">
+      <one-of>
+        <item>
+          regarder <tag>out = ""; </tag>
+        </item>
+      </one-of>
+      
+      <one-of>
+        <item>
+          tf1 <tag>out = "1"; </tag>
+        </item>
+        <item>
+          france deux <tag>out = "2"; </tag>
+        </item>
+        <item>
+          france trois <tag>out = "3"; </tag>
+        </item>
+        <item>
+          canal plus <tag>out = "4"; </tag>
+        </item>
+        <item>
+          france cinq <tag>out = "5"; </tag>
+        </item>
+        <item>
+          m six <tag>out = "6"; </tag>
+        </item>
+        <item>
+          arté <tag>out = "7"; </tag>
+        </item>
+        <item>
+          d huit <tag>out = "8"; </tag>
+        </item>
+        <item>
+          w neuf <tag>out = "9"; </tag>
+        </item>
+        <item>
+          tmc <tag>out = "1&amp;long=true|0&amp;long=true"; </tag>
+        </item>
+      </one-of>
+    </item>
+  </rule>
+
+  <rule id="Explore">
+    <item repeat="0-1">
+      <one-of>
+        <item>
+          explorer les programmes <tag>out = "explore"; </tag>
+        </item>
+        <item>
+          stop <tag>out = "stop"; </tag>
+        </item>
+        <item>
+          programme suivant <tag>out = "prgm_inc"; </tag>
+        </item>
+        <item>
+          programme précédent <tag>out = "prgm_dec"; </tag>
+        </item>
+      </one-of>
+    </item>
+  </rule>
+  
+  <rule id="Functionality">
+    <item repeat="0-1">
+      <one-of>
+        <item>
+          bouton ok <tag>out = "ok"; </tag>
+        </item>
+        <item>
+          bouton retour <tag>out = "red"; </tag>
+        </item>
+        <item>
+          pause <tag>out = "play"; </tag>
+        </item>
+        <item>
+          lecture <tag>out = "play"; </tag>
+        </item>
+      </one-of>
+    </item>
+  </rule>
+</grammar>

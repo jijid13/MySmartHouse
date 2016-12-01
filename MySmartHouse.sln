@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySmartHouse", "MySmartHouse\MySmartHouse.csproj", "{11DD1705-2CE3-4B44-9148-0A527888DB29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHServiceWeather", "MSHServiceWeather\MSHServiceWeather.csproj", "{C5C83888-4649-4A41-8021-170A3B5E55D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHServiceMyFox", "MSHServiceMyFox\MSHServiceMyFox.csproj", "{0AA914AE-6007-4F02-AEB4-09BC48EFDBD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHServiceSonyBravia", "MSHServiceSonyBravia\MSHServiceSonyBravia.csproj", "{4EA41CF6-98BF-4340-BDAD-1E76EC99C1BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHServiceFreeBox", "MSHServiceFreeBox\MSHServiceFreeBox.csproj", "{620BC691-5402-44B1-9AFA-693FF5CED813}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSHServiceTraffic", "MSHServiceTraffic\MSHServiceTraffic.csproj", "{34C749A4-434D-4257-B16C-51A430AAF8B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		ComputerTestKinect|Any CPU = ComputerTestKinect|Any CPU
+		ComputerTestMicro|Any CPU = ComputerTestMicro|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11DD1705-2CE3-4B44-9148-0A527888DB29}.ComputerTestKinect|Any CPU.ActiveCfg = ComputerTestKinect|Any CPU
+		{11DD1705-2CE3-4B44-9148-0A527888DB29}.ComputerTestKinect|Any CPU.Build.0 = ComputerTestKinect|Any CPU
+		{11DD1705-2CE3-4B44-9148-0A527888DB29}.ComputerTestMicro|Any CPU.ActiveCfg = ComputerTest|Any CPU
+		{11DD1705-2CE3-4B44-9148-0A527888DB29}.ComputerTestMicro|Any CPU.Build.0 = ComputerTest|Any CPU
+		{11DD1705-2CE3-4B44-9148-0A527888DB29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11DD1705-2CE3-4B44-9148-0A527888DB29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11DD1705-2CE3-4B44-9148-0A527888DB29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11DD1705-2CE3-4B44-9148-0A527888DB29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5C83888-4649-4A41-8021-170A3B5E55D9}.ComputerTestKinect|Any CPU.ActiveCfg = ComputerTestKinect|Any CPU
+		{C5C83888-4649-4A41-8021-170A3B5E55D9}.ComputerTestKinect|Any CPU.Build.0 = ComputerTestKinect|Any CPU
+		{C5C83888-4649-4A41-8021-170A3B5E55D9}.ComputerTestMicro|Any CPU.ActiveCfg = ComputerTest|Any CPU
+		{C5C83888-4649-4A41-8021-170A3B5E55D9}.ComputerTestMicro|Any CPU.Build.0 = ComputerTest|Any CPU
+		{C5C83888-4649-4A41-8021-170A3B5E55D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C83888-4649-4A41-8021-170A3B5E55D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C83888-4649-4A41-8021-170A3B5E55D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C83888-4649-4A41-8021-170A3B5E55D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AA914AE-6007-4F02-AEB4-09BC48EFDBD7}.ComputerTestKinect|Any CPU.ActiveCfg = ComputerTestKinect|Any CPU
+		{0AA914AE-6007-4F02-AEB4-09BC48EFDBD7}.ComputerTestKinect|Any CPU.Build.0 = ComputerTestKinect|Any CPU
+		{0AA914AE-6007-4F02-AEB4-09BC48EFDBD7}.ComputerTestMicro|Any CPU.ActiveCfg = ComputerTest|Any CPU
+		{0AA914AE-6007-4F02-AEB4-09BC48EFDBD7}.ComputerTestMicro|Any CPU.Build.0 = ComputerTest|Any CPU
+		{0AA914AE-6007-4F02-AEB4-09BC48EFDBD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AA914AE-6007-4F02-AEB4-09BC48EFDBD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AA914AE-6007-4F02-AEB4-09BC48EFDBD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AA914AE-6007-4F02-AEB4-09BC48EFDBD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EA41CF6-98BF-4340-BDAD-1E76EC99C1BC}.ComputerTestKinect|Any CPU.ActiveCfg = ComputerTestKinect|Any CPU
+		{4EA41CF6-98BF-4340-BDAD-1E76EC99C1BC}.ComputerTestKinect|Any CPU.Build.0 = ComputerTestKinect|Any CPU
+		{4EA41CF6-98BF-4340-BDAD-1E76EC99C1BC}.ComputerTestMicro|Any CPU.ActiveCfg = ComputerTest|Any CPU
+		{4EA41CF6-98BF-4340-BDAD-1E76EC99C1BC}.ComputerTestMicro|Any CPU.Build.0 = ComputerTest|Any CPU
+		{4EA41CF6-98BF-4340-BDAD-1E76EC99C1BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EA41CF6-98BF-4340-BDAD-1E76EC99C1BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EA41CF6-98BF-4340-BDAD-1E76EC99C1BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EA41CF6-98BF-4340-BDAD-1E76EC99C1BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{620BC691-5402-44B1-9AFA-693FF5CED813}.ComputerTestKinect|Any CPU.ActiveCfg = ComputerTestKinect|Any CPU
+		{620BC691-5402-44B1-9AFA-693FF5CED813}.ComputerTestKinect|Any CPU.Build.0 = ComputerTestKinect|Any CPU
+		{620BC691-5402-44B1-9AFA-693FF5CED813}.ComputerTestMicro|Any CPU.ActiveCfg = ComputerTest|Any CPU
+		{620BC691-5402-44B1-9AFA-693FF5CED813}.ComputerTestMicro|Any CPU.Build.0 = ComputerTest|Any CPU
+		{620BC691-5402-44B1-9AFA-693FF5CED813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{620BC691-5402-44B1-9AFA-693FF5CED813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{620BC691-5402-44B1-9AFA-693FF5CED813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{620BC691-5402-44B1-9AFA-693FF5CED813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34C749A4-434D-4257-B16C-51A430AAF8B1}.ComputerTestKinect|Any CPU.ActiveCfg = ComputerTestKinect|Any CPU
+		{34C749A4-434D-4257-B16C-51A430AAF8B1}.ComputerTestKinect|Any CPU.Build.0 = ComputerTestKinect|Any CPU
+		{34C749A4-434D-4257-B16C-51A430AAF8B1}.ComputerTestMicro|Any CPU.ActiveCfg = ComputerTest|Any CPU
+		{34C749A4-434D-4257-B16C-51A430AAF8B1}.ComputerTestMicro|Any CPU.Build.0 = ComputerTest|Any CPU
+		{34C749A4-434D-4257-B16C-51A430AAF8B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C749A4-434D-4257-B16C-51A430AAF8B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C749A4-434D-4257-B16C-51A430AAF8B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C749A4-434D-4257-B16C-51A430AAF8B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
