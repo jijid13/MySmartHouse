@@ -1,0 +1,12 @@
+C:\Dev\Github\MySmartHouse\MSHServiceMyFox\bin\Debug\MSHServiceMyFox.png
+C:\Dev\Github\MySmartHouse\MSHServiceMyFox\bin\Debug\MSHServiceMyFox.xml
+C:\Dev\Github\MySmartHouse\MSHServiceMyFox\bin\Debug\MSHServiceMyFox.ini
+C:\Dev\Github\MySmartHouse\MSHServiceMyFox\bin\Debug\MSHServiceMyFox.dll.config
+C:\Dev\Github\MySmartHouse\MSHServiceMyFox\bin\Debug\MSHServiceMyFox.dll
+C:\Dev\Github\MySmartHouse\MSHServiceMyFox\bin\Debug\MSHServiceMyFox.pdb
+C:\Dev\Github\MySmartHouse\MSHServiceMyFox\bin\Debug\Newtonsoft.Json.dll
+C:\Dev\Github\MySmartHouse\MSHServiceMyFox\obj\Debug\MSHServiceMyFox.csprojResolveAssemblyReference.cache
+C:\Dev\Github\MySmartHouse\MSHServiceMyFox\obj\Debug\MSHService.MSHServiceMyFox.resources
+C:\Dev\Github\MySmartHouse\MSHServiceMyFox\obj\Debug\MSHServiceMyFox.csproj.GenerateResource.Cache
+C:\Dev\Github\MySmartHouse\MSHServiceMyFox\obj\Debug\MSHServiceMyFox.dll
+C:\Dev\Github\MySmartHouse\MSHServiceMyFox\obj\Debug\MSHServiceMyFox.pdb

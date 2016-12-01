@@ -1,0 +1,12 @@
+C:\Dev\Github\MySmartHouse\MSHServiceSonyBravia\bin\Debug\MSHServiceSonyBravia.png
+C:\Dev\Github\MySmartHouse\MSHServiceSonyBravia\bin\Debug\MSHServiceSonyBravia.xml
+C:\Dev\Github\MySmartHouse\MSHServiceSonyBravia\bin\Debug\MSHServiceSonyBravia.ini
+C:\Dev\Github\MySmartHouse\MSHServiceSonyBravia\bin\Debug\MSHServiceSonyBravia.dll.config
+C:\Dev\Github\MySmartHouse\MSHServiceSonyBravia\bin\Debug\MSHServiceSonyBravia.dll
+C:\Dev\Github\MySmartHouse\MSHServiceSonyBravia\bin\Debug\MSHServiceSonyBravia.pdb
+C:\Dev\Github\MySmartHouse\MSHServiceSonyBravia\bin\Debug\Newtonsoft.Json.dll
+C:\Dev\Github\MySmartHouse\MSHServiceSonyBravia\obj\Debug\MSHServiceSonyBravia.csprojResolveAssemblyReference.cache
+C:\Dev\Github\MySmartHouse\MSHServiceSonyBravia\obj\Debug\MSHService.MSHServiceSonyBravia.resources
+C:\Dev\Github\MySmartHouse\MSHServiceSonyBravia\obj\Debug\MSHServiceSonyBravia.csproj.GenerateResource.Cache
+C:\Dev\Github\MySmartHouse\MSHServiceSonyBravia\obj\Debug\MSHServiceSonyBravia.dll
+C:\Dev\Github\MySmartHouse\MSHServiceSonyBravia\obj\Debug\MSHServiceSonyBravia.pdb

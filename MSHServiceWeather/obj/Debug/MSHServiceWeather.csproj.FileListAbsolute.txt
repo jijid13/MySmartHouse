@@ -1,0 +1,10 @@
+C:\Dev\Github\MySmartHouse\MSHServiceWeather\bin\Debug\MSHServiceWeather.png
+C:\Dev\Github\MySmartHouse\MSHServiceWeather\bin\Debug\MSHServiceWeather.xml
+C:\Dev\Github\MySmartHouse\MSHServiceWeather\bin\Debug\MSHServiceWeather.ini
+C:\Dev\Github\MySmartHouse\MSHServiceWeather\bin\Debug\MSHServiceWeather.dll.config
+C:\Dev\Github\MySmartHouse\MSHServiceWeather\bin\Debug\MSHServiceWeather.dll
+C:\Dev\Github\MySmartHouse\MSHServiceWeather\bin\Debug\MSHServiceWeather.pdb
+C:\Dev\Github\MySmartHouse\MSHServiceWeather\obj\Debug\MSHService.MSHServiceWeather.resources
+C:\Dev\Github\MySmartHouse\MSHServiceWeather\obj\Debug\MSHServiceWeather.csproj.GenerateResource.Cache
+C:\Dev\Github\MySmartHouse\MSHServiceWeather\obj\Debug\MSHServiceWeather.dll
+C:\Dev\Github\MySmartHouse\MSHServiceWeather\obj\Debug\MSHServiceWeather.pdb

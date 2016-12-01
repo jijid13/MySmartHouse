@@ -1,0 +1,12 @@
+C:\Dev\Github\MySmartHouse\MSHServiceFreeBox\bin\Debug\MSHServiceFreeBox.png
+C:\Dev\Github\MySmartHouse\MSHServiceFreeBox\bin\Debug\MSHServiceFreeBox.xml
+C:\Dev\Github\MySmartHouse\MSHServiceFreeBox\bin\Debug\MSHServiceFreeBox.ini
+C:\Dev\Github\MySmartHouse\MSHServiceFreeBox\bin\Debug\MSHServiceFreeBox.dll.config
+C:\Dev\Github\MySmartHouse\MSHServiceFreeBox\bin\Debug\MSHServiceFreeBox.dll
+C:\Dev\Github\MySmartHouse\MSHServiceFreeBox\bin\Debug\MSHServiceFreeBox.pdb
+C:\Dev\Github\MySmartHouse\MSHServiceFreeBox\bin\Debug\Newtonsoft.Json.dll
+C:\Dev\Github\MySmartHouse\MSHServiceFreeBox\obj\Debug\MSHServiceFreeBox.csprojResolveAssemblyReference.cache
+C:\Dev\Github\MySmartHouse\MSHServiceFreeBox\obj\Debug\MSHService.MSHServiceFreeBox.resources
+C:\Dev\Github\MySmartHouse\MSHServiceFreeBox\obj\Debug\MSHServiceFreeBox.csproj.GenerateResource.Cache
+C:\Dev\Github\MySmartHouse\MSHServiceFreeBox\obj\Debug\MSHServiceFreeBox.dll
+C:\Dev\Github\MySmartHouse\MSHServiceFreeBox\obj\Debug\MSHServiceFreeBox.pdb
